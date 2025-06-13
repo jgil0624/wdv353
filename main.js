@@ -37,7 +37,7 @@ async function getPokemonData(id) {
     console.error("Something went wrong:", error);
   }
 }
-// This function generated random pokemon id
+// This function picks a random pokemon id
 async function assignmentTask() {
   const randomId = Math.floor(Math.random() * 151) + 1;
   const result = await getPokemonData(randomId);
